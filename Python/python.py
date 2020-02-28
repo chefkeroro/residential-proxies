@@ -2,7 +2,7 @@ import urllib.request
 import random
 username = 'USERNAME'
 password = 'PASSWORD'
-country = 'DE'
+country = 'US'
 session = random.random()
 entry = ('http://customer-%s-cc-%s:%s@pr.oxylabs.io:7777' %
     (username, country, password))
